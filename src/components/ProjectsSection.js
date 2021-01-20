@@ -49,7 +49,6 @@ const StyledProject = styled.div`
     }
     position: relative;
     margin: 0 1rem;
-    padding: 4rem 2rem;
     img{
         width: 100%;
     }
