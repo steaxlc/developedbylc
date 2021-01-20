@@ -39,9 +39,14 @@ const AbsoluteAdjust = styled.div`
     display: absolute;
     top: 0;
     left: 0;
-    margin-top: 10%;
-    margin-left: -50.5%;
-
+    margin-top: 20%;
+    
+    @media only screen and (min-height: 750px){
+        margin-left: -37%;
+    }
+    @media only screen and (max-height: 749px){
+        margin-left: -45%;
+    }
 `;
 
 
@@ -54,12 +59,11 @@ const StyledContainer = styled(Container)`
 `;
 
 const StyledHeroSection = styled.div`
+    height: 90vh;
     background: #88D317;
     color: white;
     transition: all 0.3s ease;
-    @media only screen and (min-width: 1050px){
-        height: 90vh;
-    }
+    
 `;
 
 const StyledHeroImage = styled.div`
@@ -91,9 +95,44 @@ const ContentHero = styled.div`
     .animate-scroll-down{
         margin-top: 2rem;
     }
-    @media only screen and (max-width: 1049px){
+    @media only screen and (min-width: 801px) and (max-width: 1049px){
         display: grid;
         grid-template-columns: 100%;
+        h1{
+            font-size: 4rem;
+        }
+        h4{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+    @media only screen and (min-width: 600px) and (max-width: 800px){
+        display: grid;
+        grid-template-columns: 100%;
+        h1{
+            font-size: 3rem;
+        }
+        h4{
+            font-size: 1.5rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+    @media only screen and (max-width: 599px){
+        display: grid;
+        grid-template-columns: 100%;
+        h1{
+            font-size: 2rem;
+        }
+        h4{
+            font-size: 1rem;
+        }
+        p{
+            font-size: 1rem;
+        }
     }
 `;
 
