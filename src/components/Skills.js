@@ -76,8 +76,8 @@ const StyledSkills = styled.div`
     }
     @media only screen and (max-width: 790px){
         ul{
-            margin-left: 5em;
-            margin-right: 5em;
+            margin-left: 0;
+            margin-right: 0;
             display: grid;
         grid-template-columns: 100%;}
     }
