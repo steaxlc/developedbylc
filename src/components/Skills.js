@@ -62,25 +62,15 @@ const StyledSkills = styled.div`
     }
     @media only screen and (min-width: 1000px){
         ul{
-            margin-left: 0;
-            margin-right: 0;
             display: flex;
             grid-template-columns: repeat(3, auto);}
     }
-    @media only screen and (max-width: 999px) and (min-width: 791px){
+    @media only screen and (max-width: 999px){
         ul{
-            margin-left: 10em;
-            margin-right: 10em;
             display: grid;
             grid-template-columns: 100%;}
     }
-    @media only screen and (max-width: 790px){
-        ul{
-            margin-left: 0;
-            margin-right: 0;
-            display: grid;
-        grid-template-columns: 100%;}
-    }
+    
 `;
 
 export default Skills
