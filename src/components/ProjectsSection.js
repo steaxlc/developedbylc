@@ -20,6 +20,9 @@ const ProjectsSection = () => {
     return (
         <StyledProject>
             <Container>
+            <h2>
+                Projects
+            </h2>
                 <ProjectContentRight
                 title="Music App"
                 catchphrase="To listen your favorites musics"

@@ -18,7 +18,7 @@ import TextProject from './TextProject'
  
 const Right = styled.div`
     margin: 2rem 0;
-    @media only screen and (min-width: 800px){
+    @media only screen and (min-width: 1000px){
         display: grid;
         grid-template-columns: 40% auto;
         a{

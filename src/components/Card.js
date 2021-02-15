@@ -14,6 +14,7 @@ const Card = ({image, title, description}) => {
 const StyledCard = styled.div`
     background: white;
     padding: 2em;
+    max-width: 410px;
     border-radius: 1em;
     margin-bottom: 1em;
     img{

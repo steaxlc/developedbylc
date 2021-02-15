@@ -7,18 +7,15 @@ import Skills from '../components/Skills'
 //import components
 import HeroSection from '../components/HeroSection'
 import ProjectSection from '../components/ProjectsSection'
+import ContactSection from '../components/ContactSection'
 
 const Home = () => {
     return (
         <BodyHome>
             <HeroSection />
-            
-            <h2>
-                Projects
-            </h2>
-            
             <ProjectSection />
-            <Skills/>
+            <Skills />
+            <ContactSection/>
         </BodyHome>
     )
 }

@@ -44,14 +44,14 @@ const Skills = () => {
     )
 }
 
+
 const StyledSkills = styled.div`
-background: #00ffee;
+    background: #00ffee;
+    z-index: 2;
     width:100%;
     margin-top: 10rem;
     padding: 2em 0;
     ul{
-        display: grid;
-        grid-template-columns: repeat(3, auto);
         grid-gap: 1em;
         list-style-type: none;
         margin: 0;
@@ -59,6 +59,27 @@ background: #00ffee;
     }
     a{
         text-decoration: none;
+    }
+    @media only screen and (min-width: 1000px){
+        ul{
+            margin-left: 0;
+            margin-right: 0;
+            display: flex;
+            grid-template-columns: repeat(3, auto);}
+    }
+    @media only screen and (max-width: 999px) and (min-width: 791px){
+        ul{
+            margin-left: 10em;
+            margin-right: 10em;
+            display: grid;
+            grid-template-columns: 100%;}
+    }
+    @media only screen and (max-width: 790px){
+        ul{
+            margin-left: 5em;
+            margin-right: 5em;
+            display: grid;
+        grid-template-columns: 100%;}
     }
 `;
 
