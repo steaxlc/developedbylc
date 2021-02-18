@@ -151,6 +151,13 @@ const Formulario = styled.div`
         font-weight: bold;
         font-size: 20px;
     }
+    @media only screen and (min-width: 1050px){
+        
+        width: 60%;
+    }
+    @media only screen and (max-width: 1049px){
+        width: 100%;
+    }
 `;
 
 const DashBoard = styled.div`
@@ -158,7 +165,13 @@ const DashBoard = styled.div`
     border-radius: 30px;
     justify-content: center;
     align-items: center;
-    
+    @media only screen and (min-width: 1050px){
+        
+        width: 40%;
+    }
+    @media only screen and (max-width: 1049px){
+        width: 100%;
+    }
     .photo{
         display: flex;
         flex-direction: column;
@@ -181,7 +194,6 @@ const DashBoard = styled.div`
         margin-bottom: 2em;
         font-weight: bold;
     }
-    width: 40%;
     .information{
         padding: 2em;
         flex-direction: column;
@@ -192,25 +204,34 @@ const DashBoard = styled.div`
 `;
 
 const Glass = styled.div`
-    display: flex;
     background: linear-gradient(to right bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.3));
     min-height: 80vh;
-    width: 60%;
+    width: 80%;
     z-index: 3;
     border-radius: 30px;
     margin: 3em;
-    
+    @media only screen and (min-width: 1050px){
+        
+            display: flex;
+            flex-direction: row;
+            grid-template-columns: repeat(3, auto);
+    }
+    @media only screen and (max-width: 1049px){
+        
+            display: flex;
+            flex-direction: column;
+            grid-template-columns: 100%;
+    }
     
 `;
 
 const ContactBody = styled.div`
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     overflow: hidden;
-    
     background: black;
 `;
 
