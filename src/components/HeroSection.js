@@ -60,6 +60,7 @@ const StyledContainer = styled(Container)`
 
 const StyledHeroSection = styled.div`
     height: 90vh;
+    min-height: 500px;
     background: #88D317;
     color: white;
     transition: all 0.3s ease;
