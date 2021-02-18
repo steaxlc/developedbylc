@@ -17,6 +17,7 @@ import { Container } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const ProjectsSection = () => {
+    
     return (
         <StyledProject>
             <Container>
@@ -67,5 +68,7 @@ const StyledProject = styled.div`
         z-index: -1;
     }
 `;
+
+
 
 export default ProjectsSection
