@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.js": "/developedbylc/static/js/main.ae073689.chunk.js",
-    "main.js.map": "/developedbylc/static/js/main.ae073689.chunk.js.map",
-    "runtime-main.js": "/developedbylc/static/js/runtime-main.3b66e65b.js",
-    "runtime-main.js.map": "/developedbylc/static/js/runtime-main.3b66e65b.js.map",
+    "main.js": "/developedbylc/static/js/main.bcc7010d.chunk.js",
+    "main.js.map": "/developedbylc/static/js/main.bcc7010d.chunk.js.map",
+    "runtime-main.js": "/developedbylc/static/js/runtime-main.654a6b43.js",
+    "runtime-main.js.map": "/developedbylc/static/js/runtime-main.654a6b43.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/developedbylc/static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.5767195b.chunk.js": "/developedbylc/static/js/2.5767195b.chunk.js",
-    "static/js/2.5767195b.chunk.js.map": "/developedbylc/static/js/2.5767195b.chunk.js.map",
-    "static/js/3.c03ad38a.chunk.js": "/developedbylc/static/js/3.c03ad38a.chunk.js",
-    "static/js/3.c03ad38a.chunk.js.map": "/developedbylc/static/js/3.c03ad38a.chunk.js.map",
+    "static/js/2.955fba3a.chunk.js": "/developedbylc/static/js/2.955fba3a.chunk.js",
+    "static/js/2.955fba3a.chunk.js.map": "/developedbylc/static/js/2.955fba3a.chunk.js.map",
+    "static/js/3.3c2de03d.chunk.js": "/developedbylc/static/js/3.3c2de03d.chunk.js",
+    "static/js/3.3c2de03d.chunk.js.map": "/developedbylc/static/js/3.3c2de03d.chunk.js.map",
     "index.html": "/developedbylc/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/developedbylc/static/css/2.20aa2d7b.chunk.css.map",
-    "static/js/2.5767195b.chunk.js.LICENSE.txt": "/developedbylc/static/js/2.5767195b.chunk.js.LICENSE.txt",
+    "static/js/2.955fba3a.chunk.js.LICENSE.txt": "/developedbylc/static/js/2.955fba3a.chunk.js.LICENSE.txt",
+    "static/media/Ph.5e226609.jpg": "/developedbylc/static/media/Ph.5e226609.jpg",
     "static/media/icon-frontend.3b1139f5.svg": "/developedbylc/static/media/icon-frontend.3b1139f5.svg",
     "static/media/icon-mobile.d1862e53.svg": "/developedbylc/static/media/icon-mobile.d1862e53.svg",
     "static/media/icon-ux.e9092ca1.svg": "/developedbylc/static/media/icon-ux.e9092ca1.svg",
@@ -19,9 +20,9 @@
     "static/media/rockband.e8c483e6.png": "/developedbylc/static/media/rockband.e8c483e6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.3b66e65b.js",
+    "static/js/runtime-main.654a6b43.js",
     "static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.5767195b.chunk.js",
-    "static/js/main.ae073689.chunk.js"
+    "static/js/2.955fba3a.chunk.js",
+    "static/js/main.bcc7010d.chunk.js"
   ]
 }
