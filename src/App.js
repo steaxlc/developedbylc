@@ -11,14 +11,28 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 //Pages
 import Home from './pages/Home'
+import About from './pages/About'
+import Resume from './pages/Resume'
 
+import { Switch, Route } from 'react-router-dom';
 
 function App() {
 
   return (
     <ConfigGeral>
-      <NavBar/>
-      <Home />
+      <NavBar />
+      <Switch>
+        <Route path="/developedbylc" exact>
+          <Home />
+        </Route>
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="/resume">
+          <Resume/>
+        </Route>
+      </Switch>
+      
     </ConfigGeral>
   );
 }

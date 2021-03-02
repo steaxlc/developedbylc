@@ -4,9 +4,23 @@ import photo from '../img/Ph.jpg'
 import { FaGithub, FaPhone, FaMailBulk, FaLinkedin } from 'react-icons/fa'
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
+import emailjs from 'emailjs-com'
+
 import { motion } from "framer-motion";
 
 const ContactSection = () => {
+
+    function sendEmail(e) {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_eytuxko', 'template_8u69vdb', e.target, 'user_z0IUDgWEdNfo7VzI5t1VW')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+        e.target.reset();
+      }
 
     const circleOne = {
         hidden: {
@@ -112,16 +126,17 @@ const ContactSection = () => {
                 </DashBoard>
                 <Formulario>
                     <h2>Get in touch!</h2>
-                        <Form>
-                            <FormGroup>
+                        <Form  onSubmit={ sendEmail}>
+                                <Label for="name">Name</Label>
+                                <Input type="text" name="name" id="name" placeholder="Your name or Company name" />
                                 <Label for="email">Email</Label>
                                 <Input type="email" name="email" id="email" placeholder="Your email" />
                                 <Label for="subject">Subject</Label>
-                                <Input type="subject" name="subject" id="subject" placeholder="Subject" />
-                                <Label for="exampleText">Message</Label>
-                                <Input type="textarea" name="text" id="exampleText" />
-                                <button>Submit</button>
-                            </FormGroup>
+                                <Input type="text" name="subject" id="subject" placeholder="Subject" />
+                                <Label for="message">Message</Label>
+                                <Input type="textarea" name="message" id="message" />
+                                <Input type="submit" name="submit" id="submit" value="Send Message"/>
+                            
                         </Form>
                 </Formulario>
             </Glass>
@@ -232,7 +247,7 @@ const ContactBody = styled.div`
     align-items: center;
     width: 100%;
     overflow: hidden;
-    background: black;
+    background: lightgrey;
 `;
 
 const Glowing = styled.div`

@@ -7,6 +7,8 @@ import styled from 'styled-components'
 import { Container } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import {Link} from 'react-router-dom'
+
 const NavBar = () => {
 
     const [isActiveMenu, setIsActiveMenu] = useState(false);
@@ -20,13 +22,13 @@ const NavBar = () => {
             <Container>
                 <Custom>
                     <StyledElements activeMenu={isActiveMenu}>
-                        <a href="#" alt="logo"><Logo>Luciano Castro</Logo></a>
+                        <Link to="/developedbylc"><Logo>Luciano Castro</Logo></Link>
 
                         <nav>
                             <ul >
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Resume</a></li>
+                                <li><Link to="/developedbylc">Home</Link></li>
+                                <li><Link to="/about">About</Link></li>
+                                <li><Link to="/resume">Resume</Link></li>
                             </ul>
                         </nav>
                         <MenuBtn onClick={changeActiveHandler}>

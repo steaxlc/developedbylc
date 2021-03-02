@@ -1,12 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
+import {Link} from 'react-router-dom'
 
 const TextProject = ({title, catchphrase, description, page, github}) => {
     return (
         <StyledText>
             <p className="title">{title}</p>
             <p className="catchphrase">{catchphrase}</p>
-            <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam provident dicta iure delectus voluptas distinctio, vitae praesentium rem quia harum perspiciatis itaque at assumenda omnis impedit recusandae hic dignissimos cumque?</p>
+            <p className="description">{description}</p>
             <Botoes>
                 <a href={page}>View project</a>
                 <a href={github}>GitHub</a>

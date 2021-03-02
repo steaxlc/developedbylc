@@ -27,14 +27,19 @@ const ProjectsSection = () => {
                 <ProjectContentRight
                 title="Music App"
                 catchphrase="To listen your favorites musics"
-                    description="Lorem10" page="#" github="#"
+                    description="A Music Player built with React and SASS. 
+                    It's used a list with the informations of the music, 
+                    like as  Cover Album, color scheme and link to the music so can be render dynamically."
+                    page="https://steaxlc.github.io/musicplayer/" github="https://github.com/steaxlc/musicplayer"
                     image ={musicplayer}
                 />
                 <div className="line"></div>
                 <ProjectContentLeft
                     title="Rock Band"
-                    catchphrase="To your band"
-                    description="Lorem10" page="#" github="#"
+                    catchphrase="To your Band"
+                    description="A website built with HTML, CSS and Bootstrap. It contains four pages,
+                    the Home Page it have the news about the band in card format, a About Us page with a parallax effect,
+                    a page with their songs, inspired in Coldplay website design, and a form page to Contact." page="https://steelhands.steax.repl.co/index.html" github="/"
                     image ={rockband}
                 />
             </Container>
