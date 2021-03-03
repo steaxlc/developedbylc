@@ -1,11 +1,12 @@
 import React from 'react'
+import ResumeSection from '../components/ResumeSection'
 
-const resume = () => {
+const Resume = () => {
     return (
         <div>
-            
+            <ResumeSection/>
         </div>
     )
 }
 
-export default resume
+export default Resume

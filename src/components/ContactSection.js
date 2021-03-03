@@ -111,10 +111,10 @@ const ContactSection = () => {
                     </div>
                     <div className="information">
                         <div className="link">
-                            <FaGithub size="30"/> <a href="https://www.linkedin.com/in/jlucianocastro/">JLucianoCastro</a>
+                        <a href="https://www.linkedin.com/in/jlucianocastro/"><FaGithub size="30"/> JLucianoCastro</a>
                         </div>
                         <div className="link">
-                            <FaLinkedin size="30"/> <a href="https://github.com/steaxlc/">sTeaxLC</a>
+                        <a href="https://github.com/steaxlc/"><FaLinkedin size="30"/> sTeaxLC</a>
                         </div>
                         <div className="link">
                             <FaMailBulk size="30"/> contatolucianocastro@gmail.com

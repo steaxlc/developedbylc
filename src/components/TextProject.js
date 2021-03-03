@@ -9,8 +9,8 @@ const TextProject = ({title, catchphrase, description, page, github}) => {
             <p className="catchphrase">{catchphrase}</p>
             <p className="description">{description}</p>
             <Botoes>
-                <a href={page}>View project</a>
-                <a href={github}>GitHub</a>
+                <a target="_blank" href={page}>View project</a>
+                <a target="_blank" href={github}>GitHub</a>
             </Botoes>
             
         </StyledText>

@@ -33,7 +33,7 @@ const TimelineComponent = () => {
           
         </TimelineOppositeContent>
         <TimelineSeparator>
-          <TimelineDot  color="purple['A200']">
+          <TimelineDot >
             <LaptopMacIcon />
           </TimelineDot>
           <TimelineConnector />
