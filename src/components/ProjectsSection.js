@@ -39,7 +39,10 @@ const ProjectsSection = () => {
                     catchphrase="To your Band"
                     description="A website built with HTML, CSS and Bootstrap. It contains four pages,
                     the Home Page it have the news about the band in card format, a About Us page with a parallax effect,
-                    a page with their songs, inspired in Coldplay website design, and a form page to Contact." page="https://steelhands.steax.repl.co/index.html" github="/"
+                    a page with their songs, inspired in Coldplay website design, and a form page to Contact.
+                    
+                    Just an expositive website, non functional.
+                    " page="https://steelhands.steax.repl.co/index.html" github="/"
                     image ={rockband}
                 />
             </Container>
