@@ -26,8 +26,8 @@ const NavBar = () => {
 
                         <nav>
                             <ul >
-                                <li><Link to="/developedbylc">Home</Link></li>
-                                <li><Link to="/about">About</Link></li>
+                                <li><Link onClick={changeActiveHandler} to="/developedbylc">Home</Link></li>
+                                <li><Link onClick={changeActiveHandler} to="/about">About</Link></li>
                                 <li><a target="_blank" href="https://drive.google.com/file/d/1opJVAfbkMXH6LK7Bw2GVTioPXFY8PIAJ/view?usp=sharing">Resume</a></li>
                             </ul>
                         </nav>
