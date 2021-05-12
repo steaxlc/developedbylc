@@ -19,7 +19,7 @@ const ProjectContentLeft = ({title, catchphrase, description, page, github, imag
 }
 
 const Left = styled.div`
-    margin: 2rem 0;
+    margin: 10rem 0;
     @media only screen and (min-width: 1000px){
         display: grid;
         a{

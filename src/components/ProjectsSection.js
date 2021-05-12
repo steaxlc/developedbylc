@@ -45,7 +45,7 @@ const ProjectsSection = () => {
                     page="https://steaxlc.github.io/ignite/"
                     github="https://github.com/steaxlc/ignite"
                     image ={Ignite}
-                />
+            />
                 <div className="line"></div>
                 <ProjectContentRight
                 title="Music App"
