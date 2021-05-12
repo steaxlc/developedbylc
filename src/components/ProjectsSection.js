@@ -65,7 +65,7 @@ const ProjectsSection = () => {
                     a page with their songs, inspired in Coldplay website design, and a form page to Contact.
                     
                     Just an expositive website, non functional.
-                    " page="https://steelhands.steax.repl.co/index.html" github="/"
+                    " page="https://steelhands.steax.repl.co/index.html" github="https://github.com/steaxlc/steelhands"
                     image ={rockband}
                 />
             </Container>
