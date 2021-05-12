@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/developedbylc/static/js/main.f89bca93.chunk.js",
-    "main.js.map": "/developedbylc/static/js/main.f89bca93.chunk.js.map",
+    "main.js": "/developedbylc/static/js/main.900191c0.chunk.js",
+    "main.js.map": "/developedbylc/static/js/main.900191c0.chunk.js.map",
     "runtime-main.js": "/developedbylc/static/js/runtime-main.c8c78f43.js",
     "runtime-main.js.map": "/developedbylc/static/js/runtime-main.c8c78f43.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/developedbylc/static/css/2.20aa2d7b.chunk.css",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.c8c78f43.js",
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.914dc897.chunk.js",
-    "static/js/main.f89bca93.chunk.js"
+    "static/js/main.900191c0.chunk.js"
   ]
 }
