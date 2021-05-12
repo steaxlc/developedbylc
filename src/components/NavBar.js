@@ -28,7 +28,7 @@ const NavBar = () => {
                             <ul >
                                 <li><Link onClick={changeActiveHandler} to="/developedbylc">Home</Link></li>
                                 <li><Link onClick={changeActiveHandler} to="/about">About</Link></li>
-                                <li><a target="_blank" href="https://drive.google.com/file/d/1opJVAfbkMXH6LK7Bw2GVTioPXFY8PIAJ/view?usp=sharing">Resume</a></li>
+                                <li><a target="_blank" href="https://drive.google.com/file/d/1vCXw3KSBXhXhlCG58NQ9QAL_yvmXTs4E/view?usp=sharing">Resume</a></li>
                             </ul>
                         </nav>
                         <MenuBtn onClick={changeActiveHandler}>
