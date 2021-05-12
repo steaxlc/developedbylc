@@ -59,12 +59,17 @@ const StyledContainer = styled(Container)`
 `;
 
 const StyledHeroSection = styled.div`
-    height: 90vh;
-    min-height: 500px;
+    min-height: 400px;
     background: #88D317;
     color: white;
     transition: all 0.3s ease;
-    
+    @media only screen and (min-width: 1050px){
+        height: 90vh;
+        
+    }
+    @media only screen and (max-width: 1049px){
+        height: 60vh;
+    }
 `;
 
 const StyledHeroImage = styled.div`

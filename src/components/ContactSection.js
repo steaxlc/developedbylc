@@ -111,10 +111,10 @@ const ContactSection = () => {
                     </div>
                     <div className="information">
                         <div className="link">
-                        <a href="https://www.linkedin.com/in/jlucianocastro/"><FaGithub size="30"/> JLucianoCastro</a>
+                        <a href="https://github.com/steaxlc/"><FaGithub size="30"/> JLucianoCastro</a>
                         </div>
                         <div className="link">
-                        <a href="https://github.com/steaxlc/"><FaLinkedin size="30"/> sTeaxLC</a>
+                        <a href="https://www.linkedin.com/in/jlucianocastro/"><FaLinkedin size="30"/> sTeaxLC</a>
                         </div>
                         <div className="link">
                             <FaMailBulk size="30"/> contatolucianocastro@gmail.com
@@ -247,7 +247,7 @@ const ContactBody = styled.div`
     align-items: center;
     width: 100%;
     overflow: hidden;
-    background: lightgrey;
+    background: darkblue;
 `;
 
 const Glowing = styled.div`

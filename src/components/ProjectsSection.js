@@ -8,6 +8,8 @@ import ProjectContentLeft from './ProjectContentLeft'
 //import images
 import musicplayer from '../img/musicplayer.png'
 import rockband from '../img/rockband.png'
+import Ignite from '../img/Ignite.png'
+import NetflixClone from '../img/NetflixClone.png'
 
 import styled from 'styled-components'
 
@@ -22,8 +24,29 @@ const ProjectsSection = () => {
         <StyledProject>
             <Container>
             <h2>
-                Projects
+                    Projects
             </h2>
+            <ProjectContentRight
+                title="Netflix Clone"
+                catchphrase="To watch and relax"
+                    description="A website built with Next JS, Styled Components and API. 
+                    Replicating the main page of Netflix, was used an APi to get the Tv Shows and Movie datas."
+                    page="https://netflixclone-steaxlc.vercel.app"
+                    github="https://github.com/steaxlc/netflixclone"
+                    image ={NetflixClone}
+                />
+                <div className="line"></div>
+            <ProjectContentLeft
+                    title="Ignite"
+                    catchphrase="Games for you"
+                    description="A website built with React, Styled Components, API and Redux. Using an API to
+                    request the data of the games, then using Redux to control the data recieved and redering in the
+                    main page. Was used too a method to search other games and render dynamicaly depending on the results."
+                    page="https://steaxlc.github.io/ignite/"
+                    github="https://github.com/steaxlc/ignite"
+                    image ={Ignite}
+                />
+                <div className="line"></div>
                 <ProjectContentRight
                 title="Music App"
                 catchphrase="To listen your favorites musics"
